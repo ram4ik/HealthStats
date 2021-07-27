@@ -14,6 +14,7 @@
 		1D3E1D4C26B07466009D4B14 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3E1D4B26B07466009D4B14 /* HealthKit.framework */; };
 		1D3E1D5426B0774F009D4B14 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D5326B0774F009D4B14 /* Activity.swift */; };
 		1D3E1D5626B078E7009D4B14 /* HealthStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D5526B078E7009D4B14 /* HealthStat.swift */; };
+		1D3E1D5826B079AA009D4B14 /* HKRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D5726B079AA009D4B14 /* HKRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1D3E1D4B26B07466009D4B14 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		1D3E1D5326B0774F009D4B14 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		1D3E1D5526B078E7009D4B14 /* HealthStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStat.swift; sourceTree = "<group>"; };
+		1D3E1D5726B079AA009D4B14 /* HKRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		1D3E1D4D26B07480009D4B14 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				1D3E1D5726B079AA009D4B14 /* HKRepository.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				1D3E1D5426B0774F009D4B14 /* Activity.swift in Sources */,
 				1D3E1D5626B078E7009D4B14 /* HealthStat.swift in Sources */,
 				1D3E1D3D26B0706C009D4B14 /* ContentView.swift in Sources */,
+				1D3E1D5826B079AA009D4B14 /* HKRepository.swift in Sources */,
 				1D3E1D3B26B0706C009D4B14 /* HealthStatsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
