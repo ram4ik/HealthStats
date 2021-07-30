@@ -16,6 +16,7 @@
 		1D3E1D5626B078E7009D4B14 /* HealthStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D5526B078E7009D4B14 /* HealthStat.swift */; };
 		1D3E1D5826B079AA009D4B14 /* HKRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D5726B079AA009D4B14 /* HKRepository.swift */; };
 		954B002D26B171D500714914 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B002C26B171D500714914 /* Date+Extension.swift */; };
+		954B002F26B3E3FD00714914 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B002E26B3E3FD00714914 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		1D3E1D5526B078E7009D4B14 /* HealthStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStat.swift; sourceTree = "<group>"; };
 		1D3E1D5726B079AA009D4B14 /* HKRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKRepository.swift; sourceTree = "<group>"; };
 		954B002C26B171D500714914 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		954B002E26B3E3FD00714914 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				1D3E1D3C26B0706C009D4B14 /* ContentView.swift */,
+				954B002E26B3E3FD00714914 /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				1D3E1D5426B0774F009D4B14 /* Activity.swift in Sources */,
 				1D3E1D5626B078E7009D4B14 /* HealthStat.swift in Sources */,
 				1D3E1D3D26B0706C009D4B14 /* ContentView.swift in Sources */,
+				954B002F26B3E3FD00714914 /* ChartView.swift in Sources */,
 				1D3E1D5826B079AA009D4B14 /* HKRepository.swift in Sources */,
 				1D3E1D3B26B0706C009D4B14 /* HealthStatsApp.swift in Sources */,
 				954B002D26B171D500714914 /* Date+Extension.swift in Sources */,
