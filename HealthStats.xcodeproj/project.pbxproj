@@ -15,6 +15,7 @@
 		1D3E1D5426B0774F009D4B14 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D5326B0774F009D4B14 /* Activity.swift */; };
 		1D3E1D5626B078E7009D4B14 /* HealthStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D5526B078E7009D4B14 /* HealthStat.swift */; };
 		1D3E1D5826B079AA009D4B14 /* HKRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D5726B079AA009D4B14 /* HKRepository.swift */; };
+		1DA0048626B5DB7800D784E7 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA0048526B5DB7800D784E7 /* DetailViewModel.swift */; };
 		954B002D26B171D500714914 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B002C26B171D500714914 /* Date+Extension.swift */; };
 		954B002F26B3E3FD00714914 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B002E26B3E3FD00714914 /* ChartView.swift */; };
 /* End PBXBuildFile section */
@@ -31,6 +32,7 @@
 		1D3E1D5326B0774F009D4B14 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		1D3E1D5526B078E7009D4B14 /* HealthStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStat.swift; sourceTree = "<group>"; };
 		1D3E1D5726B079AA009D4B14 /* HKRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKRepository.swift; sourceTree = "<group>"; };
+		1DA0048526B5DB7800D784E7 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		954B002C26B171D500714914 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		954B002E26B3E3FD00714914 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,9 +69,9 @@
 		1D3E1D3926B0706C009D4B14 /* HealthStats */ = {
 			isa = PBXGroup;
 			children = (
+				1DA0048426B5DB5E00D784E7 /* ViewModels */,
 				1D3E1D5226B074C9009D4B14 /* AppShared */,
 				1D3E1D5126B074C3009D4B14 /* Models */,
-				1D3E1D5026B074B3009D4B14 /* ViewModels */,
 				1D3E1D4F26B074A5009D4B14 /* Views */,
 				1D3E1D4E26B0748F009D4B14 /* App */,
 				1D3E1D4D26B07480009D4B14 /* Helpers */,
@@ -119,13 +121,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		1D3E1D5026B074B3009D4B14 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
 		1D3E1D5126B074C3009D4B14 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +139,14 @@
 				1D3E1D4026B07071009D4B14 /* Preview Content */,
 			);
 			path = AppShared;
+			sourceTree = "<group>";
+		};
+		1DA0048426B5DB5E00D784E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1DA0048526B5DB7800D784E7 /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +225,7 @@
 				1D3E1D5826B079AA009D4B14 /* HKRepository.swift in Sources */,
 				1D3E1D3B26B0706C009D4B14 /* HealthStatsApp.swift in Sources */,
 				954B002D26B171D500714914 /* Date+Extension.swift in Sources */,
+				1DA0048626B5DB7800D784E7 /* DetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
