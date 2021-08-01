@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D08014426B6C2CA002A754B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D08014326B6C2CA002A754B /* DetailView.swift */; };
 		1D3E1D3B26B0706C009D4B14 /* HealthStatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D3A26B0706C009D4B14 /* HealthStatsApp.swift */; };
 		1D3E1D3D26B0706C009D4B14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E1D3C26B0706C009D4B14 /* ContentView.swift */; };
 		1D3E1D3F26B07071009D4B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3E1D3E26B07071009D4B14 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D08014326B6C2CA002A754B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		1D3E1D3726B0706C009D4B14 /* HealthStats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthStats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3E1D3A26B0706C009D4B14 /* HealthStatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStatsApp.swift; sourceTree = "<group>"; };
 		1D3E1D3C26B0706C009D4B14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				1D3E1D3C26B0706C009D4B14 /* ContentView.swift */,
 				954B002E26B3E3FD00714914 /* ChartView.swift */,
+				1D08014326B6C2CA002A754B /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D3E1D5426B0774F009D4B14 /* Activity.swift in Sources */,
+				1D08014426B6C2CA002A754B /* DetailView.swift in Sources */,
 				1D3E1D5626B078E7009D4B14 /* HealthStat.swift in Sources */,
 				1D3E1D3D26B0706C009D4B14 /* ContentView.swift in Sources */,
 				954B002F26B3E3FD00714914 /* ChartView.swift in Sources */,
